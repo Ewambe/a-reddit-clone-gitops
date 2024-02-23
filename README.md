@@ -1,2 +1,1 @@
-# a-reddit-clone-gitops
-Argo CD deployment
+reddit-clone-app
