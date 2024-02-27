@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: reddit-clone-app
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: reddit-clone-app
@@ -19,6 +19,6 @@ spec:
             limits:
               cpu: "1"
             requests:
-              cpu: "500m"
+              cpu: "800m"
           ports:
             - containerPort: 3000
